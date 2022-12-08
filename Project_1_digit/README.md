@@ -1,0 +1,2 @@
+## Project 1 Digit
+This project is a simple single handwritten digit recogniser. It uses a pre-made dataset (MNIST), has a decent model (made in the `model_maker.py`) and tells the user the prediction of the `sample_image.jpg` in the terminal when ran from the `digit_identifier.py`.
