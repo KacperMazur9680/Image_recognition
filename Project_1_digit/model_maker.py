@@ -57,7 +57,7 @@ def run_test_harness():
  # fit model
  model.fit(trainX, trainY, epochs=10, batch_size=32, verbose=0)
  # save model
- model.save('digit_model.h5')
+ model.save('Project_1_digit/digit_model.h5')
  
 # entry point, run the test harness
 run_test_harness()

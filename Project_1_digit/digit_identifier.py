@@ -1,5 +1,4 @@
 from numpy import argmax
-from keras.utils import load_img
 from keras.utils import img_to_array
 from keras.models import load_model
 import cv2
@@ -22,9 +21,9 @@ def load_image(filename):
 # load an image and predict the class
 def run_example():
  # load the image
- img = load_image('sample_image.png')
+ img = load_image('Project_1_digit/sample_image.jpg')
  # load model
- model = load_model('digit_model.h5')
+ model = load_model('Project_1_digit/digit_model.h5')
  # predict the class
  predict_value = model.predict(img)
  digit = argmax(predict_value)
